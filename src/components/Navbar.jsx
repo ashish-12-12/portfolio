@@ -119,21 +119,36 @@ const Navbar = () => {
             </a>
           </ul>
           <ul className="flex flex-wrap gap-5">
-            <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-red-500 hover:opacity-100">
-              <BsYoutube />
-            </li>
 
+            <a 
+              href="https://linkedin.com/in/ashish-choubey-62440a233"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100">
               <BsLinkedin />
-            </li>
+            </li> 
+            </a>
 
+            <a 
+              href="https://x.com/Ashish20484278?t=dYI_Ylra7qYQTQGJBIVN-A&s=09"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-sky-500 hover:opacity-100">
               <BsTwitter />
             </li>
+            </a>
 
+            <a 
+              href="https://github.com/ashish-12-12"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
             <li className="cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-orange-500 hover:opacity-100">
               <BsGithub />
             </li>
+            </a>
           </ul>
         </div>
       )}
